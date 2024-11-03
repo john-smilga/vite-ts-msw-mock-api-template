@@ -190,9 +190,11 @@ That's it for the setup. Now you can run the test by typing npm run test in your
        press h to show help, press q to quit
 ```
 
-## Fetching Data Testing
+## HTTP Requests
 
-- install axios
+Let's create a component that fetches data from an API and displays it. After that we will learn how to mock the API calls with MSW.
+
+- first install axios
 
 ```bash
 npm i axios
